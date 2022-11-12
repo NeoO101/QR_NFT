@@ -1,0 +1,153 @@
+
+body {
+    background-color: #0D192C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: outfit;
+}
+h2,
+.jast-name{
+    color: #FFFFFF;
+    size: 22px;
+    font-weight: 600;
+}
+h2:hover,
+.jast-name:hover,
+.etherium {
+    color:#00FFF8;
+}
+p {
+    color: #8bacd9;
+    size: 16px;
+}
+a {
+    text-decoration: none;
+}
+section {
+    position: relative;
+    height: 20px;
+    width: 302px;
+    margin: auto;
+
+}
+
+footer {
+    width: 302px;
+    height: 35px;
+    position: relative;
+}
+.Container {
+    display: block;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    text-align: center;
+}
+.NFT-img {
+    position: relative;
+    background-color: #00fff8;
+    width: 302px;
+    height: 302px;
+    margin: 24px;
+    border-radius: 10px;
+}
+.static-desktop {
+    width: 302px;
+    height: 302px;
+    position: absolute;
+    left: 0;
+    border-radius: 8px;
+    z-index: 2;
+}
+.static-desktop :hover {
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.view {
+    width: 44px;
+    height: 30px;
+    position: absolute;
+    top: 134px;
+    left: 130px;
+    z-index: 1;
+}
+.NFT-head {
+    width: 302px;
+    height: 28px;
+    margin: 0 24px 16px 24px;
+    text-align: left;
+
+}
+.NFT-text {
+    width: 302px;
+    height: 56px;
+    margin: 24px 24px 12px 24px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+.etherium-icon {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+.etherium {
+    font-size: 16px;
+    width: 75px;
+    height: 20px;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    left: 17px;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+.icon-clock {
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 200px;
+}
+.clock-info {
+    display: inline-block;
+    position: absolute;
+    left: 225px;
+    font-weight: 400;
+}
+.line {
+    width: 302px;
+    margin: 22px auto 14px auto;
+    border: 0.1px solid #2e405a;
+}
+.authot-img {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 22px;
+}
+.authot-img img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.name {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 72px;
+    font-weight: 400;
+}
