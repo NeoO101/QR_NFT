@@ -132,13 +132,13 @@ html {
     margin: 22px auto 14px auto;
     border: 0.1px solid #2e405a;
 }
-.authot-img {
+.author-img {
     display: inline-block;
     position: absolute;
     top: 0;
     left: 22px;
 }
-.authot-img img {
+.author-img img {
     width: 33px;
     height: 33px;
     border-radius: 50%;
