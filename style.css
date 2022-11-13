@@ -62,7 +62,7 @@ footer {
     border-radius: 8px;
     z-index: 2;
 }
-.static-desktop :hover {
+.static-desktop:hover {
     opacity: 0.5;
     z-index: 0;
 }
